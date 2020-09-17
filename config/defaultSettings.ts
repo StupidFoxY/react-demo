@@ -1,9 +1,11 @@
 import { Settings as LayoutSettings } from '@ant-design/pro-layout';
 
 export default {
-  navTheme: 'light',
+  // light/dark
+  navTheme: 'dark',
   // 拂晓蓝
   primaryColor: '#1890ff',
+  // side/top/mix
   layout: 'mix',
   contentWidth: 'Fluid',
   fixedHeader: false,
@@ -12,7 +14,7 @@ export default {
   menu: {
     locale: true,
   },
-  title: 'Ant Design Pro',
+  title: '动森狸猫站',
   pwa: false,
   iconfontUrl: '',
 } as LayoutSettings & {

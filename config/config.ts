@@ -2,9 +2,7 @@
 import { defineConfig } from 'umi';
 import defaultSettings from './defaultSettings';
 import proxy from './proxy';
-
 const { REACT_APP_ENV } = process.env;
-
 export default defineConfig({
   hash: true,
   antd: {},
@@ -12,7 +10,7 @@ export default defineConfig({
     hmr: true,
   },
   layout: {
-    name: 'Ant Design Pro',
+    name: '动森狸猫站',
     locale: true,
     siderWidth: 208,
   },
@@ -68,6 +66,12 @@ export default defineConfig({
       icon: 'table',
       path: '/list',
       component: './ListTableList',
+    },
+    {
+      name: 'list.search-list.projects',
+      icon: 'smile',
+      path: '/animallist',
+      component: './AnimalList',
     },
     {
       path: '/',
