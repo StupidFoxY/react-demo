@@ -14,7 +14,7 @@ export default {
   menu: {
     locale: true,
   },
-  title: '动森狸猫站',
+  title: 'TestDemo',
   pwa: false,
   iconfontUrl: '',
 } as LayoutSettings & {

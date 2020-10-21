@@ -78,6 +78,12 @@ export default defineConfig({
       redirect: '/welcome',
     },
     {
+      name: 'account.center',
+      icon: 'smile',
+      path: '/account',
+      component: './Account',
+    },
+    {
       component: './404',
     },
   ],
